@@ -1,0 +1,11 @@
+---
+title: "Lição GitHub nº 5"
+subtitle: "Construindo gráficos com ggplot2"
+author: "Andrei Paraizo dos Santos"
+date: "(xx/02/2022)"
+output:
+html_notebook:
+toc: yes
+toc_float: yes
+hightlight: tango
+---
