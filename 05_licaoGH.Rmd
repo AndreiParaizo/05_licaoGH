@@ -43,6 +43,7 @@ ggplot(dados_gc) +
   aes(x = idade, y = peso) +
   geom_point(size = 1)
 ```
+
 ##### Resposta: o Gráfico de Pontos, mostra que pessoas com idade entre 40 á 50 anos, tem um índice de peso mais elevado, pela concentração dos pontos nessas idades.
 
 
@@ -66,6 +67,7 @@ dados_gc %>%
   ) +
   theme_minimal()
 ```
+
 #### Resposta: o Gráfico de Linhas, mostra que ocorre um aumento considerável com pessoas entre 50 anos ou mais, e tem índices de gordura elevados.
 
 
@@ -79,6 +81,7 @@ dados_gc %>%
   ggplot(aes(x = idade, y = peso, color = peso)) +
   geom_col()
 ```
+
 
 #### Resposta: o Gráfico de Colunas (ou de Barras), mostra como no gráfico de pontos, que pessoas com idade entre 40 á 50 anos, tem um índice de peso mais elevado.
 
@@ -99,6 +102,7 @@ dados_frango %>%
   ) +
   theme_minimal()
 ```
+
 #### Resposta: o Histograma, mostra que tem um aumento considerável com pesos abaixo de 100, e uma atenuação pra pesos acima desse valor.  
 
 ## 5. Gráfico de Densidade;
@@ -112,6 +116,7 @@ dados_frango %>%
   geom_density(fill = "#404080")
  
 ```
+
 
 #### Resposta: o Gráfico de Densidade, mostra que tem um aumento considerável com pessoas de pesos entre 150 á 200.  
 
